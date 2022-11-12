@@ -241,11 +241,82 @@ body{
  .card:hover{
     margin-top: -12px;
  }
-   
 
+ .sec{
+    width:100%;
+    height:818px;
+    margin-top:17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
 
+    
+    
+ }
+ .wrapper{
+    display: flex;
+    height:618px;
+    width:1140px;
+    background-color: #fff;
+    
+ }
 
+ .bimg{
+    flex:1;
+    border:1px solid white;
+    margin:auto;
+ }
+ .sidewrite{ 
+    flex:1;
+    
+ }
+ 
+ .bimg img{
+    width: 510px;
+    height:439px;
+    margin-left: 38px;
+ }
 
+ .sidewrite h3{
+ font-size:36px;
+ font-weight: 700;
+ color:#263B5E;
+ margin-left: 33px;
+ } 
+ .exp{
+      color: #263B5E;
+    margin-left: 87px;
+    position: relative;
+    top:24px;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2px;
+ }
+
+ .list{
+     list-style:none;
+     margin-top: 10px;
+ }
+ .list span{
+    font-size: 21px;
+    font-weight:500;
+    color: #FF1949;
+ }
+ .list p{
+    color: #535967;
+    font-family: "Muli", sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    margin-top: 7px;
+    
+ }
+
+ .btn3{
+    padding: 18px;
+    width: 31%;
+}
+ 
 
 
 
