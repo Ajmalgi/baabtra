@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main-body">
+        <div class="head">
+            <div class="head-left">
+                <img src="{% static 'images/logo.png' %}">
+       
+            </div>
+            <div class="head-right">
+               <h4>programs</h4>
+               <h4>placements</h4>
+               <h4>About Us</h4>
+               <h4>Blog</h4>
+               <h4>Gallery</h4>
+               <button class="btn">Enquire Now</button>
+
+            </div>
+            
+        
+        </div>
+
+        <div class="body-1">
+            <div class="body-1-left">
+              <div class="quotes">
+                <hr width="40px" color="red" style="position: absolute;"><span>LEARN SOFTWARE</span>
+                <h2>Getting a Software Job is So Easy <br>Now with our IT Internship<br> Programs.</h2>
+                <p>Learn programming from Kerala's most trusted software<br> training company with the highest placement record. <br>Enroll in software courses and internship programs in <br>Python, Flutter, Angular and PHP to start your career.
+                </p>
+                <button class="btn btn1"><i class="fa fa-list-ul" style="font-size:17px">&nbsp;&nbsp;</i>Our courses</button>
+
+              </div>
+            </div>
+            <div class="body-1-right">
+               <img src="{% static 'images/baabtraphoto.png' %}" >
+ 
+            </div>
+        </div>
+
+        <!-------=============================================-->
+            <div class="oray-main">
+                <div class="oray">
+                 <div class="item1"><img src="{% static 'images/oray-Logo.png' %}"></div>
+                 <div class="item2">
+                    <hr width="40px" color="white" style="position: absolute;margin-top: 20px;"> <span>WE ARE AFFILIATED WITH</span>
+                    <h3>Oray Education London, UK</h3>
+                </div>
+                 <div class="item3"><button class="btn btn2">Download Brochure</button></div>
+                </div>
+
+            </div>
+            <!-------card part-->
+            <section class="second-main">
+                <center><span class="spa-n">EXPERTISE IN EDUCATION</span></center>
+                <div class="heading">
+                 
+                    <h2>Ed-tech company with 11 years of industry leadership in training and <br>placements, holding highest number of placement track in Malabar.</h2>
+                </div>
+                <div class="card-main">
+                    <div class="card">
+                        <div><img  src="{% static 'images/Python.png' %}"></div>
+                        <div class="text"><h4>Python<br>Trainig</h4></div>
+                    </div>
+                    <div class="card">
+                        <div><img  src="{% static 'images/flutter.png' %}"></div>
+                        <div class="text"><h4>Flutter<br>Trainig</h4></div>
+                    </div>
+                    <div class="card">
+                        <div><img  src="{% static 'images/angular.png' %}"></div>
+                        <div class="text"><h4>Angular<br>Trainig</h4></div>
+                    </div>
+                    <div class="card">
+                        <div><img  src="{% static 'images/php.png' %}"></div>
+                        <div class="text"><h4>PHP<br>Trainig</h4></div>
+                    </div>
+                   
+
+                </div>
+            </section>
+            
+
+
+    </div>
+</body>
+</html>
